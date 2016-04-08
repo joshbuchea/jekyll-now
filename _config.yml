@@ -3,10 +3,10 @@
 #
 
 # Name of your site (displayed in the header)
-name: Your Name
+name: Site Name
 
 # Short bio or description (displayed in the header)
-description: Web Developer from Somewhere
+description: Here is the site description
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
@@ -21,7 +21,7 @@ footer-links:
   email:
   facebook:
   flickr:
-  github: barryclark/jekyll-now
+  github: joshbuchea/jekyll-bootstrap-now
   instagram:
   linkedin:
   pinterest:
@@ -39,7 +39,7 @@ disqus:
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:
 
-# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
+# Your website URL (e.g. http://joshbuchea.github.io or http://www.joshbuchea.com)
 # Used for Sitemap.xml and your RSS feed
 url:
 
@@ -55,7 +55,7 @@ baseurl: ""
 
 permalink: /:title/
 
-# The release of Jekyll Now that you're using
+# The release of Jekyll Bootstrap Now that you're using
 version: v1.2.0
 
 # Jekyll 3 now only supports Kramdown for Markdown
