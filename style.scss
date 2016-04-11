@@ -123,15 +123,14 @@ img {
 }
 
 .site-avatar {
-  float: left;
+  display: block;
+  margin: 0 auto;
   width: 70px;
   height: 70px;
-  margin-right: 15px;
 
-  @include mobile {
-    float: none;
-    display: block;
-    margin: 0 auto;
+  @include screen-sm-min  {
+    float: left;
+    margin-right: 15px;
   }
 
   img {
