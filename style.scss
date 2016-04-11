@@ -33,12 +33,12 @@ h1, h2, h3, h4, h5, h6 {
   color: $darkerGray;
   font-weight: bold;
 
-  line-height: 1.7;
+  line-height: 1.4;
   margin: 1em 0 15px;
   padding: 0;
 
-  @include mobile {
-    line-height: 1.4;
+  @include screen-sm-min {
+    line-height: 1.7;
   }
 }
 
@@ -115,9 +115,10 @@ img {
 .masthead {
   padding: 20px 0;
   border-bottom: 1px solid $lightGray;
+  text-align: center;
 
-  @include mobile {
-    text-align: center;
+  @include screen-sm-min {
+    text-align: left;
   }
 }
 
