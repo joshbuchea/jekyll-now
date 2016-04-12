@@ -21,7 +21,7 @@ $georgia: Georgia, serif;
 
 // Device breakpoints
 @mixin screen-sm-min {
-  @media screen and (min-width: 640px) {
+  @media screen and (min-width: 768px) {
     @content;
   }
 }
