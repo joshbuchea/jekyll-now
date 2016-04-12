@@ -139,12 +139,8 @@ img {
 }
 
 .site-info {
-  float: left;
-
-  @include mobile {
-    float: none;
-    display: block;
-    margin: 0 auto;
+  @include screen-sm-min {
+    float: left;
   }
 }
 
