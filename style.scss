@@ -17,8 +17,8 @@ html {
 }
 
 body {
-	background: $white;
-  font: 18px/1.4 $helvetica;
+	background: $bodyBg;
+  font: 18px/1.4 $fontBody;
   color: $darkGray;
   -moz-osx-font-smoothing: grayscale;
    -webkit-font-smoothing: antialiased;
@@ -29,7 +29,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
+  font-family: $fontHeaders;
   color: $darkerGray;
   font-weight: bold;
 
