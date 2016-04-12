@@ -165,28 +165,28 @@ img {
 }
 
 nav {
-  float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
+  display: block;
+  margin-top: 9px;
   font-family: $helveticaNeue;
-  font-size: 18px;
+  font-size: 16px;
 
-  @include mobile {
-    float: none;
-    margin-top: 9px;
-    display: block;
-    font-size: 16px;
+  @include screen-sm-min {
+    float: right;
+    margin-top: 23px; // @TODO: Vertically middle align
+    font-size: 18px;
   }
 
   a {
-    margin-left: 20px;
-    color: $darkGray;
-    text-align: right;
-    font-weight: 300;
-    letter-spacing: 1px;
+    margin: 0 10px;
+    color: $blue;
 
-    @include mobile {
-      margin: 0 10px;
-      color: $blue;
+    @include screen-sm-min {
+      margin-left: 20px;
+      margin-right: 0;
+      color: $darkGray;
+      text-align: right;
+      font-weight: 300;
+      letter-spacing: 1px;
     }
   }
 }
