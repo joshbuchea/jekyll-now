@@ -1,8 +1,8 @@
-> March, 2016: If you're on an old version of Jekyll Bootstrap Now and run into a) build warnings or b) syntax highlighting issues caused by [Jekyll 3 and GitHub Pages updates](https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0), just :sparkles:[update your _config.yml](https://github.com/joshbuchea/jekyll-bootstrap-now/pull/445/files):sparkles: and you'll be set!
-
 # Jekyll Bootstrap Now
 
-**Jekyll** is a static site generator that's perfect for GitHub hosted blogs ([Jekyll Repository](https://github.com/jekyll/jekyll))
+**Jekyll** is a blog aware, static site generator that's perfect for GitHub hosted sites ([Jekyll Repository](https://github.com/jekyll/jekyll))
+
+**Bootstrap** is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.
 
 **Jekyll Bootstrap Now** makes it easier to create your Jekyll blog, by eliminating a lot of the up front setup.
 
@@ -79,7 +79,7 @@ Edit `/_posts/2014-3-3-Hello-World.md` to publish your first blog post. This [Ma
 
 [Open an Issue](https://github.com/joshbuchea/jekyll-bootstrap-now/issues/new) and let's chat!
 
-## Other forkable themes
+## Other forkable Jekyll repos
 
 You can use the [Quick Start](https://github.com/joshbuchea/jekyll-bootstrap-now#quick-start) workflow with other themes that are set up to be forked too! Here are some of my favorites:
 
@@ -101,3 +101,7 @@ Issues and Pull Requests are greatly appreciated. If you've never contributed to
 You can start by [opening an issue](https://github.com/joshbuchea/jekyll-bootstrap-now/issues/new) describing the problem that you're looking to resolve and we'll go from there.
 
 I want to keep Jekyll Bootstrap Now as minimal as possible. Every line of code should be one that's useful to 90% of the people using it. Please bear that in mind when submitting feature requests. If it's not something that most people will use, it probably won't get merged. :guardsman:
+
+## License
+
+[MIT License](LICENSE)
